@@ -436,3 +436,47 @@ footer .navigasi {
 }
 
 /* UNTUK RESPONSIF DI BAWAH */
+
+
+
+@media (max-width:600px) {
+
+   .navigasi {
+      display: none;
+   }
+
+   .logo {
+      margin-right: auto;
+   }
+
+   .shop {
+      margin-right: 20px;
+   }
+
+   .col-kiri {
+      width: 100%;
+      text-align: center;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 32px;
+   }
+
+   .col-kanan {
+      width: 100%;
+   }
+
+   .col-produk,
+   .col-team {
+      width: 50%;
+   }
+
+   .col-review {
+      width: 100%;
+      margin-bottom: 40px;
+   }
+
+   .col-kontak {
+      width: 50%;
+   }
+
+}
